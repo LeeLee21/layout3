@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $('.feedback').click(function(){
+        $(".popup").fadeIn(800)
+    })
+})
+$(document).ready(function(){
+    $('.close').click(function(){
+        $(".popup").fadeOut(800)
+    })
+})
